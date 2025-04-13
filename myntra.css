@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding:0px;
+box-sizing: border-box;
+}
+header{
+    display: flex;
+    background: whitesmoke;
+    height: 80px;
+    font-size: 12px;
+    align-items: center;
+}
+
+.myntra{
+    height: 40px;
+}
+
+.logo{
+    margin-right:2%;
+}
+.navbar ul{
+    display: flex;
+    min-width:500px;
+    justify-content: space-between;
+    list-style: none;
+}
+.search{
+    min-width:200px;
+    width:30%;
+    height:40px;
+    display: flex;
+    align-items: center;
+    margin:125px;
+
+
+}
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 5px;
+}
+.cs{ 
+    display: flex; 
+     min-width: 200px; 
+     justify-content: space-evenly; 
+     color: red; 
+}
+
+.banner{
+    margin: 40px 0px;
+    
+
+} 
+.image{ 
+     width:80%;
+     
+}
+.heading{
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.5em;
+    margin:o,10px 30px ;
+    font-weight:500px;
+    margin-left:2%;
+
+}
+.category_item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+    
+
+
+}
+.pro{
+    width: 200px;
+}
+.pro{
+    margin-left:80px;
+
+}
+.list{
+    display: flex;
+    color: blueviolet;
+    justify-content:space-evenly;
+    
+
+}
+.footer1{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    
+
+
+} 
+.copyright{
+    height:40px;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+}
+
+
+
+
+
